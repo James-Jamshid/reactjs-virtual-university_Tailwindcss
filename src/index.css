@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h3 {
+  /* cursor: pointer; */
+  color: #030f4b;
+}
+h5 {
+  color: #030f4b;
+  cursor: pointer;
+}
+h5:hover {
+  color: #055a09;
+  transform: scale(1.1);
+  transition: 0 0 10px;
+}
+h1 {
+  color: #030f4b;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 97px;
+}
+h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  cursor: pointer;
+}
+h2:hover {
+  color: #055a09;
+}
+h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 77px;
+  color: #030f4b;
+}
+#icon {
+  color: #030f4b;
+  cursor: pointer;
+}
+#icon:hover {
+  color: #055a09;
+  transform: scale(1.1);
+  transition: 0 0 10px;
+}
